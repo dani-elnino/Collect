@@ -37,12 +37,18 @@ public class Collect {
 		treeMap.put("w", 435);
 		treeMap.put("u", 32);
 
-		System.out.println("HashMap: ");
+		System.out.println("TreeMap: ");
 		for (String s : treeMap.keySet()) {
 			String key = s.toString();
 			String value = treeMap.get(s).toString();
 			System.out.println(key + " " + value);
 		}
+		
+		// Third part of the Collect assignment
+		// Which should you use (HashMap or TreeMap), 
+		// if you have to guarantee the order of key, value pairs?
+		System.out.println("To guarantee the order of key, value pairs, "
+				+ "TreeMap is used");
 
 	}
 
